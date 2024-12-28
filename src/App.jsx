@@ -4,11 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
+    //flex in css
     <>
-     
+     <div className='bg-blue-300'>hi</div>
+
+
+     <div className='flex justify-between'>
+      <div>child 1</div>
+      <div>child 2</div>
+      <div>child 3</div>
+     </div>
     </>
   )
 }
