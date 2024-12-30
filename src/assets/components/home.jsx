@@ -15,14 +15,14 @@ export default function Home() {
         <input
           type="text"
           placeholder="Enter your email"
-          className="h-100 w-400 px-4 py-3 bg-blue-400 rounded-lg placeholder-gray-100"
+          className="h-100 w-400 px-4 py-3 bg-blue-400 rounded-lg text-white placeholder-gray-100"
         />
       </div>
 <div>
 <button
         className={`w-64 px-4 py-3 rounded-lg ${
           disabled ? 'bg-green-200' : 'bg-blue-900'
-        } text-white`}
+        } text-black`}
       >
         Continue
       </button>
